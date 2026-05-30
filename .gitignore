@@ -1,0 +1,71 @@
+# ============================================================
+# 神话科学 (Myth Science) — .gitignore
+# ============================================================
+
+# --- 项目元数据 & 工具目录 ---
+.workbuddy/
+.backup/
+
+# --- 操作系统生成文件 ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+
+# --- 编辑器 & IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+.env
+*.egg
+
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- 临时 & 备份文件 ---
+*.tmp
+*.bak
+*.orig
+*.log
+
+# --- 旧版本文档（可选） ---
+# 以下目录包含文档的旧版本/副本。如需保留在仓库中，请注释掉相应行。
+副本/
+旧/
+
+# --- 归档 & 压缩包 ---
+*.zip
+*.tar.gz
+*.rar
+*.7z
